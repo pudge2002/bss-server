@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ProjectPython\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\cleanupbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\cleanupbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\cleanupsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\cleanupsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\cleanupsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\cleanupsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\videorecorderhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\videorecorderhostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\cleanupsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\cleanupsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\videorecorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\videorecorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\controllers\\camerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\camerascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\video\\videorecordersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\video\\videorecordersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\wwwroot\\index.html||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\wwwroot\\index.html||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\webapplication2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\webapplication2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|e:\\projectpython\\webapplication2\\webapplication2\\webapplication2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D5AE13E4-FF4C-4003-8741-6EE6756033E5}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 149,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cleanupSettings.json",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\cleanupSettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\cleanupSettings.json",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\cleanupSettings.json",
+              "RelativeToolTip": "WebApplication2\\cleanupSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T19:32:57.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CleanupSettingsController.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupSettingsController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\CleanupSettingsController.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupSettingsController.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\CleanupSettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:16:32.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CleanupBackgroundService.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupBackgroundService.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\CleanupBackgroundService.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupBackgroundService.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\CleanupBackgroundService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADgvyEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:10:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CleanupSettingsService.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupSettingsService.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\CleanupSettingsService.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\CleanupSettingsService.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\CleanupSettingsService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:07:32.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-22T18:51:02.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T21:38:52.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CamerasController.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\CamerasController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CamerasController.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\CamerasController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\CamerasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwEYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T21:29:53.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VideoRecorderHostedService.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderHostedService.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\VideoRecorderHostedService.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderHostedService.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\VideoRecorderHostedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T21:01:00.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VideoRecorderSettings.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderSettings.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\VideoRecorderSettings.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderSettings.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\VideoRecorderSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:38:28.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VideoRecorderService.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderService.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Video\\VideoRecorderService.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Video\\VideoRecorderService.cs",
+              "RelativeToolTip": "WebApplication2\\Video\\VideoRecorderService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv4YAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:58:01.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\LoginModel.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Models\\LoginModel.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:23:04.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\RegisterModel.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:21:32.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:41:04.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WebApplication2\\wwwroot\\index.html",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\wwwroot\\index.html",
+              "RelativeToolTip": "WebApplication2\\wwwroot\\index.html",
+              "ViewState": "AgIAABYBAAAAAAAAAAAgwEsBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T00:52:24.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebApplication2.csproj",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.csproj",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T00:43:26.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WebApplication2\\wwwroot\\index.html",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\wwwroot\\index.html",
+              "RelativeToolTip": "WebApplication2\\wwwroot\\index.html",
+              "ViewState": "AgIAAEcAAAAAAAAAAABRwBwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T00:41:07.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WebApplication2",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.csproj",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T00:39:28.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebApplication2.http",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.http",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.http",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\WebApplication2.http",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-13T00:39:18.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\ProjectPython\\WebApplication2\\WebApplication2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAywDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T00:35:20.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

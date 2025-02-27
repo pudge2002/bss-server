@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление пользователями, камерами и очисткой</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #007BFF;
+        }
+
+        form {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            button:hover {
+                background-color: #0056b3;
+            }
+
+        .list-container {
+            margin-top: 20px;
+        }
+
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+            .list-item button {
+                background-color: #dc3545;
+                border: none;
+                padding: 5px 10px;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+                .list-item button:hover {
+                    background-color: #c82333;
+                }
+
+        .cleanup-settings {
+            margin-top: 30px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+            .cleanup-settings h2 {
+                margin-bottom: 15px;
+            }
+
+            .cleanup-settings label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+                color: #555;
+            }
+
+            .cleanup-settings input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            .cleanup-settings button {
+                background-color: #28a745;
+            }
+
+                .cleanup-settings button:hover {
+                    background-color: #218838;
+                }
+    </style>
+</head>
+<body>
+    <h1>Управление пользователями</h1>
+    <div>
+        <h2>Добавить пользователя</h2>
+        <form id="addUserForm">
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" required />
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" required />
+            <label for="role">Роль:</label>
+            <input type="text" id="role" required />
+            <button type="submit">Добавить</button>
+        </form>
+    </div>
+
+    <h2>Список пользователей</h2>
+    <div id="userList" class="list-container"></div>
+
+    <h1>Управление камерами</h1>
+    <div>
+        <h2>Добавить камеру</h2>
+        <form id="addCameraForm">
+            <label for="cameraUrl">URL камеры:</label>
+            <input type="text" id="cameraUrl" required />
+            <label for="cameraLogin">Логин:</label>
+            <input type="text" id="cameraLogin" required />
+            <label for="cameraPassword">Пароль:</label>
+            <input type="password" id="cameraPassword" required />
+            <button type="submit">Добавить</button>
+        </form>
+    </div>
+
+    <h2>Список камер</h2>
+    <div id="cameraList" class="list-container"></div>
+
+    <div class="cleanup-settings">
+        <h2>Настройки очистки</h2>
+        <form id="addCleanupSettingsForm">
+            <label for="cleanupTime">Время очистки:</label>
+            <input type="time" id="cleanupTime" required />
+            <label for="cleanupIntervalDays">Интервал (дни):</label>
+            <input type="number" id="cleanupIntervalDays" min="1" required />
+            <button type="submit">Сохранить настройки</button>
+        </form>
+    </div>
+
+    <script>
+        // Функция для добавления пользователя
+        document.getElementById('addUserForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const role = document.getElementById('role').value;
+
+            fetch('/api/users/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username, password, role })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Пользователь добавлен успешно!');
+                    fetchUsers();
+                } else {
+                    alert('Ошибка при добавлении пользователя.');
+                }
+            }).catch(error => console.error('Ошибка:', error));
+        });
+
+        // Функция для добавления камеры
+        document.getElementById('addCameraForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            const url = document.getElementById('cameraUrl').value;
+            const login = document.getElementById('cameraLogin').value;
+            const password = document.getElementById('cameraPassword').value;
+
+            fetch('/api/cameras', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ url, login, password })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Камера добавлена успешно!');
+                    fetchCameras();
+                } else {
+                    alert('Ошибка при добавлении камеры.');
+                }
+            }).catch(error => console.error('Ошибка:', error));
+        });
+
+        // Функция для добавления настроек очистки
+        document.getElementById('addCleanupSettingsForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
+
+            const cleanupTime = document.getElementById('cleanupTime').value;
+            const cleanupIntervalDays = document.getElementById('cleanupIntervalDays').value;
+
+            try {
+                const response = await fetch('/api/cleanup-settings', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        cleanupTime: cleanupTime,
+                        cleanupIntervalDays: parseInt(cleanupIntervalDays, 10)
+                    })
+                });
+
+                if (response.ok) {
+                    alert('Настройки очистки сохранены успешно!');
+                } else {
+                    const errorData = await response.json();
+                    alert('Ошибка при сохранении настроек очистки: ' + (errorData.message || response.statusText));
+                }
+            } catch (error) {
+                console.error('Ошибка при сохранении настроек очистки:', error);
+                alert('Ошибка при сохранении настроек очистки.');
+            }
+        });
+
+        // Функция для получения списка пользователей
+        function fetchUsers() {
+            fetch('/api/users')
+                .then(response => response.json())
+                .then(data => {
+                    const userList = document.getElementById('userList');
+                    userList.innerHTML = '';
+                    data.forEach(user => {
+                        const userElement = document.createElement('div');
+                        userElement.className = 'list-item';
+                        userElement.innerHTML = `Имя: ${user.username}, Роль: ${user.role} <button onclick="deleteUser(${user.id})">Удалить</button>`;
+                        userList.appendChild(userElement);
+                    });
+                }).catch(error => console.error('Ошибка:', error));
+        }
+
+        // Функция для удаления пользователя
+        function deleteUser(userId) {
+            fetch(`/api/users/${userId}`, {
+                method: 'DELETE'
+            }).then(response => {
+                if (response.ok) {
+                    alert('Пользователь удален успешно!');
+                    fetchUsers();
+                } else {
+                    alert('Ошибка при удалении пользователя.');
+                }
+            }).catch(error => console.error('Ошибка:', error));
+        }
+
+        // Функция для получения списка камер
+        function fetchCameras() {
+            fetch('/api/cameras')
+                .then(response => response.json())
+                .then(data => {
+                    const cameraList = document.getElementById('cameraList');
+                    cameraList.innerHTML = '';
+                    data.forEach(camera => {
+                        const cameraElement = document.createElement('div');
+                        cameraElement.className = 'list-item';
+                        cameraElement.innerHTML = `URL: ${camera.url}, Логин: ${camera.login} <button onclick="deleteCamera(${camera.id})">Удалить</button>`;
+                        cameraList.appendChild(cameraElement);
+                    });
+                }).catch(error => console.error('Ошибка:', error));
+        }
+
+        // Функция для удаления камеры
+        function deleteCamera(cameraId) {
+            fetch(`/api/cameras/${cameraId}`, {
+                method: 'DELETE'
+            }).then(response => {
+                if (response.ok) {
+                    alert('Камера удалена успешно!');
+                    fetchCameras();
+                } else {
+                    alert('Ошибка при удалении камеры.');
+                }
+            }).catch(error => console.error('Ошибка:', error));
+        }
+
+        // Функция для загрузки настроек очистки
+        async function loadCleanupSettings() {
+            try {
+                const response = await fetch('/api/cleanup-settings');
+                if (response.ok) {
+                    const settings = await response.json();
+                    document.getElementById('cleanupTime').value = settings.cleanupTime;
+                    document.getElementById('cleanupIntervalDays').value = settings.cleanupIntervalDays;
+                } else {
+                    console.error('Ошибка при загрузке настроек очистки:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Ошибка при загрузке настроек очистки:', error);
+            }
+        }
+
+        // Первоначальная загрузка данных
+        fetchUsers();
+        fetchCameras();
+        loadCleanupSettings();
+    </script>
+</body>
+</html>
