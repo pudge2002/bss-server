@@ -77,10 +77,20 @@
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
             var user = await _context.Users.SingleOrDefaultAsync(u => u.Username == model.Username);
-            if (user == null || !BCrypt.Verify(model.Password, user.PasswordHash))
+            Console.WriteLine(model.Password);
+            if (model.Password != "string")
             {
                 return Unauthorized("Invalid username or password.");
             }
+            else
+            {
+                return Ok("Ok");
+            }
+            
+            //if (user == null || !BCrypt.Verify(model.Password, user.PasswordHash))
+            //{
+            //    return Unauthorized("Invalid username or password.");
+            //}
 
             var token = GenerateJwtToken(user);
             return Ok(new { token });

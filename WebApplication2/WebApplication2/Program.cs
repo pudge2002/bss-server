@@ -41,6 +41,18 @@ builder.Services.AddAuthentication(x =>
     };
 });
 
+// Настройка CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 // Регистрация контроллеров
 builder.Services.AddControllers();
 
@@ -85,6 +97,7 @@ if (app.Environment.IsDevelopment())
 app.UseStaticFiles();
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseCors("AllowAll"); // Использование политики CORS
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
